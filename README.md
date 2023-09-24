@@ -7,3 +7,5 @@ U ovoj vježbi potrebno je napraviti sljedeće:
 ..* postavi style child komponente: const style = { backgroundColor: color };
 3. Napraviti ColoredButton komponentu: const ColoredButton = withColor(Button);
 4. Iscrtati nekoliko različitih ColoredButton komponenti, svaka od njih prima drugi color prop
+
+- kasnije ću, kad naučim HOC :-P
