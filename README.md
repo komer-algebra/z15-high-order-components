@@ -1,8 +1,9 @@
-# React + Vite
+# z15 - High Order Components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+U ovoj vježbi potrebno je napraviti sljedeće:
+1. Napraviti novu React aplikaciju
+2. Napraviti HOC withColor koji će postavljati stil komponente na način da:
+..* primi prop "color"
+..* postavi style child komponente: const style = { backgroundColor: color };
+3. Napraviti ColoredButton komponentu: const ColoredButton = withColor(Button);
+4. Iscrtati nekoliko različitih ColoredButton komponenti, svaka od njih prima drugi color prop
